@@ -1,1 +1,5 @@
 # Stock-Analysis
+Module-1
+
+Includes working with pandas, which is used in processing and analysing data.Processing contains cleaning and organizing.Cleaning includes removing unknown values from the data or replacing unknown values with values which make sense e.g. mean,median,mode.On the other hand analysing the data could include finding out the trend of a stock price, e.g. how the stock price changes with respect to the Nifty 50 basket of stocks or S & P 500.Firstly,importing the dataset and then storing into the dataframe and then performing some functions like tail(),head() immensely useful for exploration.Then we analysed the data types and converted the date into the datetime64(ns) for performing operations based on the date. In this finally we calculated VWAP (Volume weighted average price) of the stock. ( VWAP = sum(price*volume)/sum(volume) ) [https://www.investopedia.com/terms/v/vwap.asp]. Add a column 'Day_Perc_Change' where the values are the daily change in percentages i.e. the percentage change between 2 consecutive day's closing prices. Add another column 'Trend' whose values are based on conditions.
+
